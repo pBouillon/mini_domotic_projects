@@ -103,6 +103,8 @@ def get_dist() :
     return distance
     
 def send_sms() :
+    '''Send an SMS
+    '''
     client  = SinchSMS (TOKEN, SECRET)
     number  = NUMBER
     message = 'Alarm was triggered'
